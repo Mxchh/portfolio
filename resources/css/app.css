@@ -1,0 +1,149 @@
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, black, purple);
+    flex-direction: column;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+}
+
+.container .content-about {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    background: linear-gradient(90deg, purple, rgb(214, 76, 214));
+    background-clip: text;
+    color: transparent;
+}
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.intro .introPosition {
+    margin: 10px 0;
+}
+
+.intro .introPosition h1 {
+    background: linear-gradient(90deg, #a020f0, #ff00ff, #d64cd6);
+    background-clip: text;
+    color: transparent;
+}
+
+.intro .introDesc p {
+    color: #fcd8ff;
+    margin: 10px 0;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.content img {
+    display: flex;
+    max-width: 220px;
+    height: 140px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px black;
+}
+
+.content img:hover {
+    box-shadow: 0 6px 18px rgba(255,0,255,0.6);
+    transform: scale(1.05);
+}
+
+
+.content .info {
+    max-width: 220px;
+}
+
+.content .info p {
+    max-width: 220px;
+    color: #fcd8ff;
+}
+
+.content .info .infoTitle p{
+    padding: 20px 0 10px 0;
+    font-weight: bold;
+    background: linear-gradient(90deg, #a020f0, #ff00ff, #00ffff);
+    background-clip: text;
+    color: transparent;
+}
+
+/* Contact Page */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-section h2 {
+  background: linear-gradient(90deg, #a020f0, #ff00ff, #d64cd6);
+  background-clip: text;
+  color: transparent;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+
+.contact-info a {
+  color: #ff00ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
