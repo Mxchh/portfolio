@@ -70,7 +70,6 @@ a:focus-visible {
     gap: clamp(20px, 5vw, 52px);
     padding: 24px 16px;
     background: transparent;
-    backdrop-filter: blur(14px);
 }
 
 .navbar::before {
@@ -80,6 +79,7 @@ a:focus-visible {
     height: var(--navbar-height);
     border-bottom: 1px solid rgba(230, 207, 248, .12);
     background: rgba(22, 13, 32, .88);
+    backdrop-filter: blur(14px);
     content: '';
 }
 
