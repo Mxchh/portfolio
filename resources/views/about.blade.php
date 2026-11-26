@@ -32,7 +32,7 @@
                     I’m currently focused on learning Laravel, React, TypeScript (TSX), HTML, and CSS by building hands-on projects.
                 </p>
             </div>
-            <a class="hero-link" href="{{ route('projects') }}">Explore my projects <span aria-hidden="true">↗</span></a>
+            <a class="hero-link" href="{{ route('projects') }}">Explore my projects</a>
         </div>
         <div class="content">
             <div class="devContent">

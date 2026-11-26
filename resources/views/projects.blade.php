@@ -24,13 +24,13 @@
                     <span class="project-tag">Laravel · Blade · CSS</span>
                     <h3>Personal Portfolio</h3>
                     <p>A responsive portfolio built with Laravel Blade and CSS, sharing my projects and web development learning journey.</p>
-                    <a href="{{ route('about') }}">View this site <span aria-hidden="true">↗</span></a>
+                    <a href="{{ route('about') }}">View this site</a>
                 </article>
                 <article class="project-card project-card-next">
                     <span class="project-tag">In progress · React · TypeScript · Laravel</span>
                     <h3>Journal App</h3>
                     <p>A personal journaling app with journal entries, mood tracking, streaks, and statistics. I’m building the React frontend and Laravel API.</p>
-                    <a href="https://github.com/Mxchh/journal-frontend" target="_blank" rel="noopener noreferrer">View source on GitHub <span aria-hidden="true">↗</span></a>
+                    <a href="https://github.com/Mxchh/journal-frontend" target="_blank" rel="noopener noreferrer">View source on GitHub</a>
                 </article>
             </div>
         </main>
