@@ -13,7 +13,7 @@
         <nav class="navbar">
             <a href="{{route('about')}}" class="active">About</a>
             <a href="{{ route('projects') }}">Projects</a>
-            <a href="https://drive.google.com/file/d/1dUM8utRZKXj3tRsrLjSnvwkSp-616Ugz/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a href="https://drive.google.com/file/d/1ueNxgufJB1dn8mJwwOSbuAqQNs8DSb8D/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Resume</a>
             <a href="{{route('contact')}}">Contact</a>
         </nav>
         <div class="content-about">
